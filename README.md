@@ -1,4 +1,4 @@
-# 🎫 HelpDesk — Support Ticketing System
+# 🎫 QueryFix — Support Ticketing System
 
 A full-stack ticketing system built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, **shadcn/ui**, and **Supabase**.
 
