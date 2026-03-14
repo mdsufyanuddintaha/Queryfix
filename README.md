@@ -122,7 +122,7 @@ WHERE email = 'your-admin@email.com';
 ### STEP 7 — Push to GitHub
 
 1. Create a new repository on https://github.com/new
-   - Name: `helpdesk-ticketing`
+   - Name: `QueryFix-ticketing`
    - Set to **Public** or **Private**
    - Do NOT initialize with README (we have one)
    - Click **Create repository**
