@@ -73,7 +73,7 @@ NEXT_PUBLIC_SUPABASE_URL=https://xxxxxxxxxxxx.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5c...
 SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5c...
 NEXT_PUBLIC_APP_URL=http://localhost:3000
-ADMIN_EMAIL=admin@yourdomain.com
+
 ```
 
 Replace with your actual Supabase values.
