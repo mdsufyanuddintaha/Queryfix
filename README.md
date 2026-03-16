@@ -43,19 +43,18 @@ Download: https://nodejs.org
 1. Go to https://supabase.com and click **Start for free**
 2. Sign up / log in
 3. Click **New Project**
-   - Name: `helpdesk`
+   - Name: `XYZ`
    - Set a strong database password (save it!)
    - Choose a region close to you
    - Click **Create new project** (takes ~2 min)
 
 4. Once ready, go to **SQL Editor** (left sidebar)
 5. Click **New query**
-6. Open the file `supabase/schema.sql` from this project
-7. Paste the entire contents and click **Run**
-   - You should see: *"Success. No rows returned"*
+6. Create Sql schema
 
-8. Go to **Project Settings → API** (left sidebar)
-9. Copy these two values:
+
+7. Go to **Project Settings → API** (left sidebar)
+8. Copy these two values:
    - **Project URL** → `NEXT_PUBLIC_SUPABASE_URL`
    - **anon public key** → `NEXT_PUBLIC_SUPABASE_ANON_KEY`
    - **service_role key** → `SUPABASE_SERVICE_ROLE_KEY`
@@ -122,7 +121,7 @@ WHERE email = 'your-admin@email.com';
 ### STEP 7 — Push to GitHub
 
 1. Create a new repository on https://github.com/new
-   - Name: `QueryFix-ticketing`
+   - Name: `XYZ-ticketing`
    - Set to **Public** or **Private**
    - Do NOT initialize with README (we have one)
    - Click **Create repository**
@@ -132,9 +131,9 @@ WHERE email = 'your-admin@email.com';
 ```bash
 git init
 git add .
-git commit -m "Initial commit — HelpDesk ticketing system"
+git commit -m "Initial commit — XYZ ticketing system"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/helpdesk-ticketing.git
+git remote add origin https://github.com/YOUR_USERNAME/XYZ-ticketing.git
 git push -u origin main
 ```
 
@@ -146,7 +145,7 @@ Replace `YOUR_USERNAME` with your GitHub username.
 
 1. Go to https://vercel.com and sign up / log in (use "Continue with GitHub")
 2. Click **Add New → Project**
-3. Find and select your `helpdesk-ticketing` repository
+3. Find and select your repository
 4. Click **Import**
 5. In the **Environment Variables** section, add all four variables:
 
@@ -249,4 +248,4 @@ ticketing-app/
 
 ---
 
-Built with ❤️ using Next.js 15, TypeScript, Tailwind CSS, shadcn/ui & Supabase.
+Built with  using Next.js 15, TypeScript, Tailwind CSS, shadcn/ui & Supabase.
