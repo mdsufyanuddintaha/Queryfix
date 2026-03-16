@@ -53,7 +53,7 @@ export default function RegisterPage() {
           <div className="w-8 h-8 bg-foreground rounded-lg flex items-center justify-center">
             <TicketIcon className="w-4 h-4 text-background" />
           </div>
-          <span className="font-semibold tracking-tight">HelpDesk</span>
+          <span className="font-semibold tracking-tight">QueryFix</span>
         </Link>
         <ThemeToggle />
       </header>
